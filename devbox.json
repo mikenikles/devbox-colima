@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "colima"
+  ],
+  "shell": {
+    "init_hook": [
+      "source conf/set-env.sh",
+      "docker run hello-world",
+      "source conf/set-exit.sh"
+    ]
+  }
+}
